@@ -1,0 +1,6 @@
+salário = float(input('Qual o salário do primeiro funcionário? R$'))
+aumento = salário + (salário*15/100)
+salário2 = float(input('Qual o salário do segundo funcionário? R$'))
+aumento2 = salário2 + (salário2*30/100)
+print('O salário do primeiro funcionário era de R${:.2f}, e com o aumento de 15% passou a ser R${:.2f}.'.format(salário, aumento))
+print('O salário do segundo funcionário era de R${:.2f}, e com o aumento de 30% passou a ser R${:.2f}.'.format(salário2, aumento2))
