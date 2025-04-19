@@ -16,3 +16,13 @@ print(frase.rstrip()) #vai remover tbm os espaços inuteis, mas apenas os da dir
 print(frase.lstrip()) #vai remover tbm os espaços inuteis, mas apenas os da esquerda.
 print(frase.split()) #vai fazer divisão das frases, deixando a contagem ficar separada por cada string.
 print('-'.join(frase)) #vai fazer a junção das palavras que a divisão separou.'''
+
+###################
+
+frase = 'Curso em video Python'
+'''#print(frase.upper().count('O'))
+print(len(frase.lstrip()))'''
+dividido = frase.split()
+print(dividido[2] [3])
+
+

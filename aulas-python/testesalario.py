@@ -1,0 +1,6 @@
+salario = float(input('Digite aqui o valor do seu salário: R$'))
+aumento = salario + (salario * 15/100)
+print('Notícias:')
+print('Houve um aumento de 15% no seu salário!')
+print('O valor do seu salário que era {}, agora vai passar a valer mais!.'.format(salario))
+print('Com o aumento ele ficou no valor total de {:.2f}.'.format(aumento))
